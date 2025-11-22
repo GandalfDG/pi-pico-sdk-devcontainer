@@ -8,3 +8,6 @@ RUN apt update && apt upgrade -y && apt install -y \
 
 
 ENV PICO_SDK_PATH=/pico-sdk
+ENV CMAKE_MAKE_PROGRAM=/usr/bin/make
+ENV CMAKE_C_COMPILER=/usr/bin/gcc
+ENV CMAKE_CXX_COMPILER=/usr/bin/g++
